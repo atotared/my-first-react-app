@@ -5,9 +5,11 @@ import Comment from './Comment';
 const App = () => {
     return(
         <>
-          <Comment />
-          <Comment />
-          <Comment />
+            <div className="ui container comments">
+            <Comment />
+            <Comment />
+            <Comment />
+            </div>
         </>
     )
 }

@@ -3,10 +3,9 @@ import faker from 'faker';
 
 const Comment = () => {
     return (
-        <div className="ui container comments">
             <div className="comment">
                 <a href="/" className="avatar">
-                    <img alt="avatar" src={faker.image.animals()}></img>
+                    <img alt="avatar" src={faker.image.image()}></img>
                 </a>
                 <div className="content">
                     <a href="/" className="author">
@@ -18,7 +17,6 @@ const Comment = () => {
                     <div className="text">{faker.lorem.sentence()}</div>
                 </div>
             </div>
-        </div>
     );
 };
 

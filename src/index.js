@@ -6,9 +6,9 @@ const App = () => {
     return(
         <>
             <div className="ui container comments">
-            <Comment />
-            <Comment />
-            <Comment />
+            <Comment author="Paul"/>
+            <Comment author="John"/>
+            <Comment author="Ringo"/>
             </div>
         </>
     )

@@ -1,5 +1,9 @@
 # Integrate with other README2.md
 
+# What's a component?
+
+A component is a function or class that produces HTML to show the user ( using JSX) and handles feedback from the user ( using event handlers).
+
 # Three Tenets of Components
 
 1. Component Nesting: A component can be shown inside another component;
@@ -41,3 +45,11 @@ return (
 };
 
 By wrapping CommentDetail inside ApprovalCard, the props of the former will be available to the latter as props.children.
+
+# Function components
+
+Function components used to have restricted capabilites. As of now, they've been updated to:
+
+1. Produce JSX to show content to the user;
+2. Can use HOOKS to run code at specific points in time (corresponding to Lifecycle Method system for Class components);
+3. Can use HOOKS to access state system and update content on screen (as for Class components);
